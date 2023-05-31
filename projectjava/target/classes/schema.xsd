@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="/jaxb/schema"
+        xmlns="/jaxb/schema"
+        elementFormDefault="qualified">
+
+<xsd:element name="name">
+    <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element name="name" type="xsd:string"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+</xsd:schema>
